@@ -1,0 +1,9 @@
+[package]
+name = "hello-cargo"
+version = "0.1.0"
+authors = ["Bartlomiej Malecki <b.s.malecki>"]
+edition = "2018"
+
+[dependencies]
+termcolor = "1"
+

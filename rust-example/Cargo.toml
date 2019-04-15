@@ -1,0 +1,28 @@
+[package]
+name = "functional-rust"
+version = "0.1.0"
+authors = ["Bartlomiej Malecki <b.s.malecki>"]
+edition = "2018"
+
+[[bin]]
+name = "concurrency"
+path = "src/concurrency/main.rs"
+
+[[bin]]
+name = "concurrency2"
+path = "src/concurrency2/main.rs"
+
+
+[[bin]]
+name = "concurrency3"
+path = "src/concurrency3/main.rs"
+
+[[bin]]
+name = "functional"
+path = "src/functional/main.rs"
+
+[[bin]]
+name = "oop"
+path = "src/oop/main.rs"
+
+[dependencies]
